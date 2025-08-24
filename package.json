@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:www.samesh.dev": "node dist/www.samesh.dev/server/server.mjs",
-    "deploy": "ng deploy --base-href=/samesh.dev/"
+    "deploy": "ng deploy --base-href=/samesh.dev/ --cname=www.samesh.dev"
   },
   "private": true,
   "dependencies": {
